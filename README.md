@@ -41,6 +41,10 @@ El taller se dividió en 2 partes:
 - Extracción de valores raster
 
 # Tareas pendientes
-Como se describió en la sección de **Alcance**, este taller solo muestra una pequeña parte del potencial de R. Algunas capacidades de R útiles para aplicaciones hidrologicas se encuentran en el reporte de resultados en mapas temáticos (raster o vectoriales), manejo de infomraion de seires temporales con solvencia, realizar tratamientos geoestadísticos (interpolaciones Kriging, bayesianas, Suavizado Doble Kernel, etc.) e incluso la manipulación de información tabular o raster por lotes (empleando funciones para automatizar los procesos requeridos).
+Como se describió en la sección de **Alcance**, este taller solo muestra una pequeña parte del potencial de R. Algunas capacidades de R útiles para aplicaciones hidrologicas pueden ser:
+- Generación de reportes de resultados en mapas temáticos (raster o vectoriales) y como informes finales (word, pdf y html).
+ - Manejo de información de series temporales con solvencia. Existen paquetes que permiten trabajar con infomración de series temporales como un tipo especial de objetos dentro de R.
+- Realizar tratamientos geoestadísticos (interpolaciones Kriging, bayesianas, Suavizado Doble Kernel, etc.) 
+- Manipulación de información tabular o raster por lotes (empleando funciones para automatizar los procesos requeridos).
 
 
