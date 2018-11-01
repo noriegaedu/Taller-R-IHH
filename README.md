@@ -15,12 +15,13 @@ En este taller se usó RStudio que es un Entorno de Desarrollo Integrado (IDE po
 Se planeó realizar un curso de introducción a R y al manejo de información tabular y raster orientado a informacion hidrológica para poder mostrar las ventajas e inconvenientes del lenguaje de programación.
 
 # Requerimientos
-Es necesario tener instalado los siguientes programas:
+Es necesario tener instalado lo siguiente:
 - [R](https://cloud.r-project.org/) : La última versión a la fecha (noviembre 2018) es 3.5.1. Se recomienda instalar la última versión o al menos mayor a la versión 3.0.0 (>3.0.0).
 - [RStudio](https://www.rstudio.com/products/rstudio/download/#download) : La ultima versión a la fecha (noviembre 2018) es 1.1.463. Se recomienda tener la última versión estable (no *preview*) o al menos mayor a la versión 1.0.0 (>1.0.0).
 - Como habíamos mencionado antes, R se basa en paquetes para expandir sus capacidades. Los paquetes que se usaron en el taller son:
-- `raster` [info](https://cran.r-project.org/package=raster)
-- `openxls` [info](https://cran.r-project.org/package=openxlsx)
+- `raster` [info](https://cran.r-project.org/package=raster) Manejo de archivos raster en general.
+- `ncdf4` [info](https://cran.r-project.org/package=ncdf4) Manejo de archivos NetCDF.
+- `openxls` [info](https://cran.r-project.org/package=openxlsx) Manejo de archivos xlsx.
 
 # Alcance
 Se elaboró el taller pensando en mostrar el conocimiento necesario para poder manipular información tabular (xlsx y csv) e información espacial (en este caso archivos grillados raster tif y NetCDF).
