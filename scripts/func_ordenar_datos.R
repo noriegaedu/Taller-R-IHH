@@ -14,7 +14,7 @@ ordenar <- function(archivos, inicio, fin, salida){
     require(lubridate)
     
     # funcion para determinar anho bisiesto
-    is.leapyear = function(year){
+    is.leapyear <- function(year){
         return(((year %% 4 == 0) & (year %% 100 != 0)) | (year %% 400 == 0))
     }
     
