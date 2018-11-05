@@ -1,5 +1,4 @@
-# Taller R
-Taller de introducción a R y al manejo de archivos raster de precipitación.
+# Taller de introducción a R y al manejo de archivos tabulares y raster.
 
 Este taller ha sido armado por mi persona, [Eduardo Noriega](https://twitter.com/norteaga), como parte de la trasferencia de información sobre lo aprendido en la elaboración de mi proyecto de grado para la obtención del título de Ingeniero Civil por parte de la Universidad Mayor de San Andrés.
 Este taller se llevara a cabo en las instalaciones del Instituto de Hidráulica e Hidrología (IHH) en fecha .....
