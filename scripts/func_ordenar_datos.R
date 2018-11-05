@@ -36,7 +36,7 @@ ordenar <- function(archivos, inicio, fin, salida){
     
     #exc_list <- lapply(exc_list, read.xlsx, startRow = 5, cols = c(1:13), colNames = F)
     
-    # data frame vacio (solo con fechas) para llenar con infomracion de cada estacion
+    # data frame vacio (solo con fechas) para llenar con infomracion acumulada de cada estacion
     t <- data.frame(fecha = f)
     # bucle para odenar datos
     for (k in 1:length(nombre)) { # iterar el numero de nombres leidos
@@ -55,8 +55,8 @@ ordenar <- function(archivos, inicio, fin, salida){
             for (i in 1:12) {
                 diasmes <- days_in_month(i) # dias en el mes escogido
                 if (i == 2 & bis == T)  diasmes <- diasmes + 1 # para modificar el numero de dias para anhos bisiestos
-                msub <- as.numeric(as.character(sub[,i])) # extrae el mes del anho evaluado j
-                msub <- msub[1:diasmes] # extrae el numero de datos del mes evaluado i 
+                msub <- as.numeric(as.character(sub[,i])) # extrae el mes i del anho evaluado j
+                msub <- msub[1:diasmes] # extrae los datos del mes evaluado i 
                 msub <- data.frame(msub) # convierte la info en data frame para...
                 d <- rbind(d, msub) # ...combinar con infomracion acumulada de otros meses
             }
@@ -66,5 +66,5 @@ ordenar <- function(archivos, inicio, fin, salida){
         t <- cbind(t, d) # se combina informacion de estaciones 
     }
     names(t) <- c("fecha", nombre) # se cambia los nombres de las estaciones
-    write.csv(t, paste0("H:/taller_ihh_oficial/Taller-R-IHH/datos/", salida, ".csv"), row.names = F) 
+    write.csv(t, paste0("./datos/", salida, ".csv"), row.names = F) 
 }
