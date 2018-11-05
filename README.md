@@ -22,6 +22,7 @@ Es necesario tener instalado lo siguiente:
 - `raster` [info](https://cran.r-project.org/package=raster) Manejo de archivos raster en general.
 - `ncdf4` [info](https://cran.r-project.org/package=ncdf4) Manejo de archivos NetCDF.
 - `openxls` [info](https://cran.r-project.org/package=openxlsx) Manejo de archivos xlsx.
+- `lubridate` [info](https://cran.r-project.org/package=lubridate) Manejo de objetos de tipo fecha (Date).
 
 # Alcance
 Se elaboró el taller pensando en mostrar el conocimiento necesario para poder manipular información tabular (xlsx y csv) e información espacial (en este caso archivos grillados raster tif y NetCDF).
