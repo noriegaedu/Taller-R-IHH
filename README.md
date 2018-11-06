@@ -10,7 +10,7 @@ R es un lenguaje de programación libre que se sustenta y expande gracias a una 
 
 En este taller se usó RStudio que es un Entorno de Desarrollo Integrado (IDE por sus siglas en inglés) para R. En RStudio se facilita la escritura de código y la visualización del mismo.
 
-# Motivaciones  del curso
+# Motivaciones del taller
 Al finalizar la elaboración de mi proyecto de grado, mi tutor y algunos docentes del Instituto de Hidráulica e Hidrología (IHH) de la Universidad Mayor de San Andrés (UMSA) me sugirieron preparar un curso básico para mostrar las ventajas y alcances del lenguaje de programación R.  
 
 Si bien aún no domino muchos aspectos de esta herramienta, si me emocionó la idea de compartir algo de lo que aprendí (compartir todo sería tan largo y a la vez tan confuso, tengo muchos pedazos de código en desorden). Es así que arme este curso como un primer paso hacia metas mayores si es que el tiempo y el interés que pueda generarse lo permite.  
@@ -47,10 +47,11 @@ El taller se dividió en 2 partes:
 - Extracción de valores raster
 
 # Tareas pendientes
-Como se describió en la sección de **Alcance**, este taller solo muestra una pequeña parte del potencial de R. Algunas capacidades de R útiles para aplicaciones hidrologicas pueden ser:
+Como se describió en la sección de los **Motivos del curso**, este taller solo muestra una pequeña parte del potencial de R. Algunas capacidades de R útiles para aplicaciones hidrologicas pueden ser:
 - Generación de reportes de resultados en mapas temáticos (raster o vectoriales) y generación de informes finales (word, pdf y html).
  - Manejo de información de series temporales con solvencia. Existen paquetes que permiten trabajar con infomración de series temporales como un tipo especial de objetos dentro de R.
 - Realizar tratamientos geoestadísticos (interpolaciones Kriging, bayesianas, Suavizado Doble Kernel, etc.) 
 - Manipulación de información tabular o raster por lotes (empleando funciones para automatizar los procesos requeridos).
+- Aplicar tratamientos estadísticos, aplicar modelos estadísticos, realizar pruebas estadísticas, etc. a conjuntos de datos.
 
 
