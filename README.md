@@ -13,7 +13,7 @@ En este taller se usó RStudio que es un Entorno de Desarrollo Integrado (IDE po
 # Motivaciones  del curso
 Al finalizar la elaboración de mi proyecto de grado, mi tutor y algunos docentes del Instituto de Hidráulica e Hidrología (IHH) de la Universidad Mayor de San Andrés (UMSA) me sugirieron preparar un curso básico para mostrar las ventajas y alcances del lenguaje de programación R.  
 
-Si bien aún no domino muchos aspectos de esta herramienta, si me emocionó la idea de compartir algo de lo que aprendí (compartir todo sería tan largo y a la vez tan confuso, tengo muchos pedazos de código en desorden). Es así que arme este curso como un primer paso hacia metas mayores si es que el tiempo y el interés que pueda generarse lo permita.  
+Si bien aún no domino muchos aspectos de esta herramienta, si me emocionó la idea de compartir algo de lo que aprendí (compartir todo sería tan largo y a la vez tan confuso, tengo muchos pedazos de código en desorden). Es así que arme este curso como un primer paso hacia metas mayores si es que el tiempo y el interés que pueda generarse lo permite.  
 
 Me encantaría poder mostrar las capacidades que tiene esta herramienta para generar mapas, gráficos de calidad e incluso reportes y presentaciones (las diapositivas de este curso fueron generadas con **RMarkdown** dentro de R).  
 
