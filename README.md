@@ -35,7 +35,7 @@ El taller se dividió en 2 partes:
 - Operaciones con información tabular
 - Guardar salidas
 - Funciones
-2. Manejo de información raster
+2. Manejo básico de información raster
 - Cargar archivos raster
 - Visualizar archivos raster
 - Extracción de valores raster
