@@ -31,19 +31,18 @@ Es necesario tener instalado lo siguiente:
 - `lubridate` [info](https://cran.r-project.org/package=lubridate) Manejo de objetos de tipo fecha (Date).
 
 # Alcance
-Se elaboró el taller pensando en mostrar el conocimiento necesario para poder manipular información tabular (xlsx y csv) e información espacial (en este caso archivos grillados raster tif y NetCDF).
+Este es un curso básico de manipualción de información tabular (csv, xlsx) y raster (tif, nc). Se pretende mostrar las capacidades de automatizacion de esta herramienta para tareas repetitivas y las posibilidades del lenguaje de programación.
 
 # Programa
 El taller se dividió en 2 partes:
 1. Introducción a R y RStudio
-- Instalación de R y RStudio
+- Descarga de R y RStudio
+- Proyectos en R
+- Librerías
 - Tipos de objetos
-- Lectura de archivos tabulares
-- Operaciones con información tabular
-- Guardar salidas
-- Funciones
+- Manipulación de información tabular
 2. Manejo básico de información raster
-- Cargar archivos raster
+- Paquetes para infomracion grillada (raster)
 - Visualizar archivos raster
 - Extracción de valores raster
 
