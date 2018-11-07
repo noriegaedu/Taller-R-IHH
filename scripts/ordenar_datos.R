@@ -6,6 +6,7 @@ is.leapyear <- function(year){
     return(((year %% 4 == 0) & (year %% 100 != 0)) | (year %% 400 == 0))
 }
 
+#### Ordenar infomracion ----------------
 # lectura de archivo
 san_calixto <- read.xlsx("./datos/San_Calixto.xlsx", startRow = 5, colNames = FALSE)
 # nombre del archivo leido
@@ -25,7 +26,7 @@ for (j in 1:36) {
     # expresion para seleccionar infomracion de cada anho conforme el indice i aumenta
     sub <- san_calixto[eval(3 + (j - 1)*38):eval(3 + (j - 1)*38 + 30), 2:13]
     # para determinar si el anho evaluado es anho bisiesto
-    bis <- is.leapyear(eval(2014 + j))
+    bis <- is.leapyear(eval(1980 + j)) 
     # bucle para escoger un mes
     for (i in 1:12) {
         diasmes <- days_in_month(i) # dias en el mes escogido
@@ -40,6 +41,4 @@ for (j in 1:36) {
 # termina el bucle de anhos
 t <- cbind(t, d) # se combina informacion acumulada 
 names(t) <- c('fecha', nombre) # se cambia los nombres de las estaciones
-
-
-
+write.csv(t, paste0(nombre, ".csv"), row.names = F) 
