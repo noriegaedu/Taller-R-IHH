@@ -66,5 +66,5 @@ ordenar <- function(archivos, inicio, fin, salida){
         t <- cbind(t, d) # se combina informacion de estaciones 
     }
     names(t) <- c("fecha", nombre) # se cambia los nombres de las estaciones
-    write.csv(t, paste0("./datos/", salida, ".csv"), row.names = F) 
+    write.csv(t, paste0(salida, ".csv"), row.names = F) 
 }
