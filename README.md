@@ -1,7 +1,10 @@
 # Taller de introducción a R y al manejo básico de archivos tabulares y raster.
 
 Este taller ha sido armado por mi persona, [Eduardo Noriega](https://twitter.com/norteaga), como parte de la trasferencia de información sobre lo aprendido en la elaboración de mi proyecto de grado para la obtención del título de Ingeniero Civil por parte de la Universidad Mayor de San Andrés.
-Este taller se llevara a cabo en las instalaciones del Instituto de Hidráulica e Hidrología (IHH) en fecha .....
+Este taller se llevara a cabo en las instalaciones del Instituto de Hidráulica e Hidrología (IHH) en noviembre de 2018.
+
+# Fecha de realización
+La primera sesion esta ptrogramada para el dia Lunes 12 de noviembre a las 9AM en la sala de reuniones de IHH. En esta primera sesión se cubrirá la primera parte del programa definido y se determinará la fecha para la segunda sesión.
 
 # Descripción de R y RStudio
 Este taller está dirigido a personas con ánimos de aprender una herramienta para manipulación de información y manipular archivos de diferentes características en un mismo entorno (archivos excel, raster entre otros).
@@ -19,7 +22,6 @@ Me encantaría poder mostrar las capacidades que tiene esta herramienta para gen
 
 Por ahora el principal objetivo es el de realizar un curso de introducción a R y al manejo básico de información tabular y raster orientado a informacion hidrológica.
 
-
 # Requerimientos
 Es necesario tener instalado lo siguiente:
 - [R](https://cloud.r-project.org/) : La última versión a la fecha (noviembre 2018) es 3.5.1. Se recomienda instalar la última versión o al menos mayor a la versión 3.0.0 (>3.0.0).
@@ -27,8 +29,12 @@ Es necesario tener instalado lo siguiente:
 - Como habíamos mencionado antes, R se basa en paquetes para expandir sus capacidades. Los paquetes que se usaron en el taller son:
 - `raster` [info](https://cran.r-project.org/package=raster) Manejo de archivos raster en general.
 - `ncdf4` [info](https://cran.r-project.org/package=ncdf4) Manejo de archivos NetCDF.
-- `openxls` [info](https://cran.r-project.org/package=openxlsx) Manejo de archivos xlsx.
+- `openxlsx` [info](https://cran.r-project.org/package=openxlsx) Manejo de archivos xlsx.
 - `lubridate` [info](https://cran.r-project.org/package=lubridate) Manejo de objetos de tipo fecha (Date).
+
+**OJO**
+En caso de tener porblemas para la instalación de R, RStudio o de las librerías escríbanme a mi [correo](eduardonoriegac@gmail.com) o por [Telegram](https://t.me/norteaga).
+
 
 # Alcance
 Este es un curso básico de manipualción de información tabular (csv, xlsx) y raster (tif, nc). Se pretende mostrar las capacidades de automatizacion de esta herramienta para tareas repetitivas y las posibilidades del lenguaje de programación.
