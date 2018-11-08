@@ -33,7 +33,7 @@ Es necesario tener instalado lo siguiente:
 - `lubridate` [info](https://cran.r-project.org/package=lubridate) Manejo de objetos de tipo fecha (Date).
 
 **OJO**  
-En caso de tener problemas para la instalación de R, RStudio o de las librerías escríbanme a mi [correo](eduardonoriegac@gmail.com) o por [Telegram](https://t.me/norteaga).
+En caso de tener problemas para la instalación de R, RStudio o de las librerías escríbanme a mi <eduardonoriegac@gmail.com> o por [Telegram](https://t.me/norteaga).
 
 
 # Alcance
