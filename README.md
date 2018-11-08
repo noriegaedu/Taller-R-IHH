@@ -32,8 +32,8 @@ Es necesario tener instalado lo siguiente:
 - `openxlsx` [info](https://cran.r-project.org/package=openxlsx) Manejo de archivos xlsx.
 - `lubridate` [info](https://cran.r-project.org/package=lubridate) Manejo de objetos de tipo fecha (Date).
 
-**OJO**
-En caso de tener porblemas para la instalación de R, RStudio o de las librerías escríbanme a mi [correo](eduardonoriegac@gmail.com) o por [Telegram](https://t.me/norteaga).
+**OJO**  
+En caso de tener problemas para la instalación de R, RStudio o de las librerías escríbanme a mi [correo](eduardonoriegac@gmail.com) o por [Telegram](https://t.me/norteaga).
 
 
 # Alcance
