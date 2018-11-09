@@ -23,7 +23,7 @@ Me encantaría poder mostrar las capacidades que tiene esta herramienta para gen
 Por ahora el principal objetivo es el de realizar un curso de introducción a R y al manejo básico de información tabular y raster orientado a informacion hidrológica.
 
 # Requerimientos
-Es necesario tener instalado lo siguiente:
+Es necesario una laptop con lo siguiente instalado:
 - [R](https://cloud.r-project.org/) : La última versión a la fecha (noviembre 2018) es 3.5.1. Se recomienda instalar la última versión o al menos mayor a la versión 3.0.0 (>3.0.0).
 - [RStudio](https://www.rstudio.com/products/rstudio/download/#download) : La ultima versión a la fecha (noviembre 2018) es 1.1.463. Se recomienda tener la última versión estable (no *preview*) o al menos mayor a la versión 1.0.0 (>1.0.0).
 - Como habíamos mencionado antes, R se basa en paquetes para expandir sus capacidades. Los paquetes que se usaron en el taller son:
