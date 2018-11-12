@@ -3,10 +3,13 @@
 #' @description Crear archivo multiestacon a partir de varios archivos sueltos
 #' 
 #' @param archivos ruta donde se encuentran los archivos xlsx
+#' Ej: 'H:\taller_ihh_oficial\Taller-R-IHH\datos'
 #' @param inicio fecha en caracteres con el inicio de los datos
+#' Ej: '1981-01-01'
 #' @param fin fecha en caracteres con el inicio de los datos
+#' Ej: '2016-12-31'
 #' @param salida caracter para nombra al archivo csv de salida
-#' 
+#' Ej: 'multi'
 #' @return La funcion crea un archivo csv multiestacion
 #' 
 ordenar <- function(archivos, inicio, fin, salida){ 
