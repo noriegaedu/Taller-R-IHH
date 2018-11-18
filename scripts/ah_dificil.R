@@ -6,7 +6,7 @@
 
 # DIFICIL
 ah_dificil <- list()
-for (i in 1:3) { # son 4 anhos hidrologicos
+for (i in 1:3) { # son 3 anhos hidrologicos
     l1  <- list.files('./datos/trmm_mes', 
                       pattern = as.character(eval(i + 1997)), 
                       full.names = T)
@@ -30,5 +30,5 @@ for (i in 1:3) { # son 4 anhos hidrologicos
     ah_dificil[[i]] <- l
 }
 # se crea un solo raster con brick
-ah_dificil <- brick(ah)
+ah_dificil <- brick(ah_dificil)
 

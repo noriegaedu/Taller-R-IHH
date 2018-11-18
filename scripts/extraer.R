@@ -1,5 +1,5 @@
 ### Extraer informacion -----------------
-
+library(openxlsx)
 # Cargar coordenadas de estaciones
 coord_todo <- read.xlsx("./datos/coord/coord_todas_est_desord.xlsx")
 # nombres

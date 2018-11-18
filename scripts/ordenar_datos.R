@@ -8,10 +8,11 @@ is.leapyear <- function(year){
 
 #### Ordenar infomracion ----------------
 # lectura de archivo
-san_calixto <- read.xlsx("./datos/San_Calixto.xlsx", startRow = 5, colNames = FALSE)
+san_calixto <- read.xlsx("H:/taller_ihh_oficial/Taller-R-IHH/datos/San_Calixto.xlsx", 
+                         startRow = 5, 
+                         colNames = FALSE)
 # nombre del archivo leido
 nombre <- 'san_calixto'
-
 #vector de fechas
 f <- seq.Date(as.Date("1981-01-01"), 
               as.Date("2016-12-31"), 
@@ -30,7 +31,7 @@ for (j in 1:36) {
     # bucle para escoger un mes
     for (i in 1:12) {
         diasmes <- days_in_month(i) # dias en el mes escogido
-        if (i == 2 & bis == T)  diasmes <- diasmes + 1 # para modificar el numero de dias para anhos bisiestos
+        if (i == 2 & bis == TRUE)  diasmes <- diasmes + 1 # para modificar el numero de dias para anhos bisiestos
         msub <- as.numeric(as.character(sub[,i])) # extrae el mes i del anho evaluado j
         msub <- msub[1:diasmes] # extrae los datos del mes evaluado i 
         msub <- data.frame(msub) # convierte la info en data frame para...
@@ -41,4 +42,4 @@ for (j in 1:36) {
 # termina el bucle de anhos
 t <- cbind(t, d) # se combina informacion acumulada 
 names(t) <- c('fecha', nombre) # se cambia los nombres de las estaciones
-write.csv(t, paste0(nombre, ".csv"), row.names = F) 
+write.csv(t, paste0('./salidas/', nombre, ".csv"), row.names = F) 
