@@ -4,7 +4,7 @@ Este taller ha sido armado por mi persona, [Eduardo Noriega](https://twitter.com
 Este taller se llevara a cabo en las instalaciones del Instituto de Hidráulica e Hidrología (IHH) en noviembre de 2018.
 
 # Fecha de realización
-La primera sesion esta ptrogramada para el dia Lunes 12 de noviembre a las 9AM en la sala de reuniones de IHH. En esta primera sesión se cubrirá la primera parte del programa definido y se determinará la fecha para la segunda sesión.
+Las sesiones fueron programadas para los dias 12 y 19 de noviembre de 2018. En cada sesión se desarrollara cada parte del programa definido mas abajo.
 
 # Descripción de R y RStudio
 Este taller está dirigido a personas con ánimos de aprender una herramienta para manipulación de información y manipular archivos de diferentes características en un mismo entorno (archivos excel, raster entre otros).
